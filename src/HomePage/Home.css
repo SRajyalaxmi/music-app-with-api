@@ -1,0 +1,141 @@
+.play {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #fff;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-top: 3px solid #aaa;
+}
+.song-img {
+    width: 3rem;
+    height: 3rem;
+    background-color: #999;
+    display: flex;
+    align-items: center;
+}
+
+.card > button {
+    display: flex !important;
+    flex-direction: column !important;
+}
+.song-img span {
+    min-width: max-content;
+}
+.queue {
+    transition: transform 150ms ease-in;
+    background-color: '#eee';
+    position: 'absolute';
+    top: '200px';
+    transform: 'translateX(150px)';
+    scrollbar-width: 'none';
+    right: '0';
+    min-width: '300px';
+    min-height: '500px';
+    box-shadow: '0 0.25rem 0.5rem rgba(0, 0, 0, 0.25)';
+}
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+.example {
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
+  overflow-x: scroll;
+}
+
+body {
+    margin: 0;
+}
+
+.queue:hover {
+    transform: translateX(0) !important;
+}
+.first-div{
+    display: "grid";
+    grid-template-columns: "auto 1fr"; 
+    column-gap: "1px"
+}
+.second-div{
+    position: 'relative';
+    left: '200px';
+    margin-bottom: '80px';
+    overflow-x: 'hidden';
+}
+.third-div{
+    display: "flex";
+    flex-direction: 'column';
+    align-items: 'flex-start';
+    gap: '1rem';
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+}
+.fourth-div{
+    overflow: '';
+    display: "flex";
+    align-items: "flex-start";
+    gap: "1rem";
+    overflow-x: "scroll";
+}
+.fifth-div{
+    display: "flex";
+    flex-direction: "column"; 
+    align-items: "flex-start" ;
+    gap: "1rem";
+    overflow: "scroll"
+}
+.sixth-div{
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+    display: "flex";
+    align-items: "flex-start"; 
+    gap: "1rem";
+    
+}
+.seventh-div{
+    display: "flex";
+    flex-direction: 'column';
+    align-items: 'flex-start';
+    gap: '1rem';
+    overflow: 'scroll';
+    scrollbar-width: 'none';
+}
+.eighth-div{
+    display: "flex";
+    align-items: "flex-start";
+    gap: "1rem"
+}
+
+.right {
+    max-width: calc(100vw- 200px);
+    overflow-x: scroll;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.albums {
+
+}
+
+.albums-cards {
+    display: flex;
+    gap: 1rem;
+    overflow: scroll;
+}
+
+.album-card {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.album-card img {
+    width: 100%;
+}

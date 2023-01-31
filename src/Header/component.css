@@ -1,0 +1,21 @@
+.first-div{
+    display: "flex";
+    align-items:"center";
+    height: 50;
+    position:"fixed";
+    left: '0'; 
+    right: '0';
+    background-color: '#fff';
+    z-index: '10';
+}
+.second-div{
+    padding: "10px 30px ";
+    margin:"0 90px";
+    flex:"1";
+    border-radius: "20px";
+    text-align: "center"
+}
+.third-div{
+    text-decoration:"none";
+    font-weight:"bold";
+}
